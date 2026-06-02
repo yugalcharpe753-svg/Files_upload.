@@ -14,7 +14,7 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from aiohttp import web
-from web_server import web_server
+from plugins.web_server import web_server
 import asyncio
 import pyromod.listen
 from pyrogram import Client
