@@ -13,7 +13,7 @@ OWNER = os.environ.get("OWNER", "King_yc_x")
 OWNER_ID = int(os.environ.get("OWNER_ID, "7252571217"))
 
 PORT = os.environ.get("PORT", "8001")
-BASE_URL = os.environ.get("BASE_URL", "https://file-bot-pgv0.onrender.com")
+BASE_URL = os.environ.get("BASE_URL", "https://files-upload-iek4.onrender.com")
 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://clipsmovie859:clipsmovie859@upload0.s6xpw3b.mongodb.net/?appName=Upload0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Entertainmen9")
