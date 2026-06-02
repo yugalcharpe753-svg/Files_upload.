@@ -1,16 +1,16 @@
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @Sastacoder, @Entertainment9
 import os
 from os import environ, getenv
 import logging
 from logging.handlers import RotatingFileHandler
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8545421376:AAFzFdh_7_sywo7_KbiJ29gYKux4ALBckCA")
-APP_ID = int(os.environ.get("APP_ID", "29780235"))
-API_HASH = os.environ.get("API_HASH", "5d3404de54587fb6eec7f1aef656018d")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8987190999:AAHumNhdIPuNTtvfmjRSGw-3Heuk6lJmd4c")
+APP_ID = int(os.environ.get("APP_ID", "32516552"))
+API_HASH = os.environ.get("API_HASH", "03ae51b59c19022f5bc5532adf1fb2cb")
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003675100602"))
-OWNER = os.environ.get("OWNER", "SANATANI_B0Y")
-OWNER_ID = int(os.environ.get("OWNER_ID", "6275020364"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003942925739"))
+OWNER = os.environ.get("OWNER", "King_yc_x")
+OWNER_ID = int(os.environ.get("OWNER_ID, "7252571217"))
 
 PORT = os.environ.get("PORT", "8001")
 BASE_URL = os.environ.get("BASE_URL", "https://file-bot-pgv0.onrender.com")
