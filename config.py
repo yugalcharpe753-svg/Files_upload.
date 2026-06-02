@@ -10,7 +10,7 @@ API_HASH = os.environ.get("API_HASH", "03ae51b59c19022f5bc5532adf1fb2cb")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003942925739"))
 OWNER = os.environ.get("OWNER", "King_yc_x")
-OWNER_ID = int(os.environ.get("OWNER_ID, "7252571217"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7252571217"))
 
 PORT = os.environ.get("PORT", "8001")
 BASE_URL = os.environ.get("BASE_URL", "https://files-upload-iek4.onrender.com")
