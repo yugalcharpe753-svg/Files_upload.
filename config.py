@@ -15,8 +15,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID, "7252571217"))
 PORT = os.environ.get("PORT", "8001")
 BASE_URL = os.environ.get("BASE_URL", "https://file-bot-pgv0.onrender.com")
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FilestoreDB:Darkauli%401234@infinityfile.pitecuw.mongodb.net/?appName=Infinityfile")
-DB_NAME = os.environ.get("DATABASE_NAME", "FilestoreDB")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://clipsmovie859:clipsmovie859@upload0.s6xpw3b.mongodb.net/?appName=Upload0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Entertainmen9")
 
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/R0Y4L_KING")
