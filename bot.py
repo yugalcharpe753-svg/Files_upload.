@@ -10,7 +10,9 @@
 #
 # All rights reserved.
 #
-
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from aiohttp import web
 from plugins import web_server
 import asyncio
