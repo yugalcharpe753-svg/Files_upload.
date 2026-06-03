@@ -11,7 +11,7 @@ from pyrogram import Client, filters
 from bot import Bot
 from config import *
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
-from database.database import *
+from database import *
 
 @Bot.on_callback_query(filters.regex(r'^(help|about|start|premium|close|rfs_ch_|rfs_toggle_|fsub_back)'))
 async def cb_handler(client: Bot, query: CallbackQuery):
