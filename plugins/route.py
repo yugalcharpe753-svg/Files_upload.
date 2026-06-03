@@ -7,7 +7,7 @@ import os
 import ipaddress
 from datetime import datetime
 from collections import defaultdict
-from database.database import db
+from database import db
 from config import BASE_URL, LOGGER, SHORTLINK_URL
 
 routes = web.RouteTableDef()
