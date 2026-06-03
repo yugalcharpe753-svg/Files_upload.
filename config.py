@@ -16,7 +16,7 @@ PORT = os.environ.get("PORT", "8001")
 BASE_URL = os.environ.get("BASE_URL", "https://files-upload-iek4.onrender.com")
 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://clipsmovie859:clipsmovie859@upload0.s6xpw3b.mongodb.net/?appName=Upload0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Entertainmen9")
+DB_NAME = os.environ.get("DATABASE_NAME", "file_link_bot")
 
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/R0Y4L_KING")
@@ -42,7 +42,7 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /dlt_time :</b> sᴇᴛ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛɪᴍᴇ
 <b>›› /check_dlt_time :</b> ᴄʜᴇᴄᴋ ᴄᴜʀʀᴇɴᴛ ᴅᴇʟᴇᴛᴇ ᴛɪᴍᴇ
 <b>›› /ban :</b> ʙᴀɴ ᴀ ᴜꜱᴇʀ
-<b>›› /unban :</b> ᴜɴʙᴀɴ ᴀ ᴜꜱᴇʀ
+<b>›› /unban :<me/b> ᴜɴʙᴀɴ ᴀ ᴜꜱᴇʀ
 <b>›› /addchnl :</b> ᴀᴅᴅ ꜰᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟ
 <b>›› /delchnl :</b> ʀᴇᴍᴏᴠᴇ ꜰᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟ
 <b>›› /add_admin :</b> ᴀᴅᴅ ᴀɴ ᴀᴅᴍɪɴ
