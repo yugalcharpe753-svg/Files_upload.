@@ -1,2 +1,4 @@
-from plugins.start import *
-Bot().run()
+from bot import Bot
+
+app = Bot()
+app.run()
