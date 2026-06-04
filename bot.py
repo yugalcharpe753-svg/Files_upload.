@@ -76,10 +76,9 @@ class Bot(Client):
         self.LOGGER = LOGGER
 
     async def start(self):
-        await super().start()
-        scheduler.start()
-        usr_bot_me = await self.get_me()
-        self.uptime = get_indian_time()
+            print(f"BOT TOKEN: {TG_BOT_TOKEN}")
+            print(f"APP ID: {APP_ID}")
+            await super().start()
 
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
