@@ -76,10 +76,7 @@ class Bot(Client):
         self.LOGGER = LOGGER
 
     async def start(self):
-            print(f"BOT TOKEN: {TG_BOT_TOKEN}")
-            print(f"APP ID: {APP_ID}")
-            await super().start()
-
+        await super().start()
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
             self.db_channel = db_channel
